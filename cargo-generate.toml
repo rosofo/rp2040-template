@@ -1,3 +1,2 @@
 [placeholders]
-project-name = { prompt = "Enter project name", default = "my-project", type = "string" }
 features = { prompt = "Features", choices = ["graphics"], default = ["graphics"], type = "array"}
