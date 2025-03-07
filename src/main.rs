@@ -14,7 +14,7 @@ use embassy_sync::blocking_mutex::raw::NoopRawMutex;
 use embassy_sync::blocking_mutex::Mutex;
 use embassy_time::{Delay, Duration, Instant, Timer};
 
-{% if features contains graphics %}
+{% if graphics %}
 use embedded_graphics::image::{Image, ImageRawLE};
 use embedded_graphics::pixelcolor::Rgb565;
 use embedded_graphics::prelude::*;

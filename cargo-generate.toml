@@ -1,2 +1,2 @@
 [placeholders]
-features = { prompt = "Features", choices = ["graphics"], default = ["graphics"], type = "array"}
+graphics = { prompt = "Features", default = [true], type = "bool"}
