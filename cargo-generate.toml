@@ -1,2 +1,2 @@
 [placeholders]
-graphics = { prompt = "Features", default = [true], type = "bool"}
+graphics = { prompt = "Features", default = true, type = "bool"}
